@@ -75,3 +75,9 @@ h1 {
     display: flex;
     justify-content: space-around;
 }
+
+@media (max-height:600px) {
+    .color-box {
+        height: 50vh;
+    }
+}
