@@ -1,0 +1,44 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Color Template Generator</h1>
+        <div class="selectors-container">
+            <input type="color" id="color-picker" class="color-selector">
+            <select id="color-mode" class="mode-selector">
+                <option value="monochrome">monochrome</option>
+                <option value="monochrome-dark">monochrome-dark</option>
+                <option value="monochrome-light">monochrome-light</option>
+                <option value="analogic">analogic</option>
+                <option value="complement">complement</option>
+                <option value="analogic-complement">analogic-complement</option>
+                <option value="triad">triad</option>
+                <option value="quad">quad</option>
+            </select>
+        </div>
+        
+        <div id="scheme-container">
+            <div class="color-box-container">
+                <div class="color-box" id="color-box-one"></div>
+                <div class="color-box" id="color-box-two"></div>
+                <div class="color-box" id="color-box-three"></div>
+                <div class="color-box" id="color-box-four"></div>
+                <div class="color-box" id="color-box-five"></div>
+            </div>
+            <div class="hex-container" id="hex-container">
+                <p>#564787</p>
+                <p>#DBCBD8</p>
+                <p>#F2FDFF</p>
+                <p>#9AD4D6</p>
+                <p>#101935</p>
+            </div>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
