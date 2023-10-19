@@ -80,4 +80,8 @@ h1 {
     .color-box {
         height: 50vh;
     }
+
+    .hex-container {
+        font-size: .8rem;
+    }
 }
